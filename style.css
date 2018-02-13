@@ -1,0 +1,40 @@
+header {
+    margin: 2em 0 0 0;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: .5em;
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    margin: 1em;
+    color: #ff97c7;
+    background-color: #61431e;
+}
+
+#aboutme {
+    float: left;
+    width: 25em;
+    height: 26em;
+    margin: 1em;
+    border-radius: 1em;
+    color: #be2e71;
+    background-color: #d3a165;
+}
+
+#pageinfo {
+    float: right;
+    width: 25em;
+    height: 26em;
+    margin: 1em;
+    border-radius: 1em;
+    color: #be2e71;
+    background-color: #d3a165;}
+
+p {
+    text-indent: 2em;
+    padding: 0em 1em 0em 1em;
+}
