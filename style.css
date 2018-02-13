@@ -15,6 +15,10 @@ body {
     background-color: #61431e;
 }
 
+section {
+    margin: 1em;
+}
+
 #underline {
     text-decoration: underline;
 }
@@ -24,7 +28,7 @@ body {
     width: 25em;
     height: 26em;
     margin: 1em;
-    border-radius: 1em 1em 0 1em;
+    border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
 }
@@ -34,7 +38,7 @@ body {
     width: 25em;
     height: 26em;
     margin:1em;
-    border-radius: 1em 1em 0 1em;
+    border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
 }
@@ -44,7 +48,7 @@ body {
     width: 25em;
     height: 26em;
     margin: 1em;
-    border-radius: 1em 1em 0 1em;
+    border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
 }
