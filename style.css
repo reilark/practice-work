@@ -11,8 +11,12 @@ nav {
 
 body {
     margin: 1em;
-    color: #ff97c7;
+    color: #ffa8d1;
     background-color: #61431e;
+}
+
+#underline {
+    text-decoration: underline;
 }
 
 #aboutme {
@@ -20,7 +24,7 @@ body {
     width: 25em;
     height: 26em;
     margin: 1em;
-    border-radius: 1em;
+    border-radius: 1em 1em 0 1em;
     color: #be2e71;
     background-color: #d3a165;
 }
@@ -29,12 +33,27 @@ body {
     float: right;
     width: 25em;
     height: 26em;
-    margin: 1em;
-    border-radius: 1em;
+    margin:1em;
+    border-radius: 1em 1em 0 1em;
     color: #be2e71;
-    background-color: #d3a165;}
+    background-color: #d3a165;
+}
+
+#progress {
+    float: left;
+    width: 25em;
+    height: 26em;
+    margin: 1em;
+    border-radius: 1em 1em 0 1em;
+    color: #be2e71;
+    background-color: #d3a165;
+}
 
 p {
     text-indent: 2em;
     padding: 0em 1em 0em 1em;
+}
+
+a {
+    text-decoration: none;
 }
