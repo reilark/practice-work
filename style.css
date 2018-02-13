@@ -2,3 +2,26 @@ header {
     text-align: center;
     font-style: italic;
 }
+
+nav {
+    text-align: center;
+}
+
+body {
+    color: #ff97c7;
+    background-color: #7c572a;
+}
+
+#aboutme {
+    width: 25em;
+    height: 30em;
+    margin: 1em;
+    border-radius: 1em;
+    color: #e23385;
+    background-color: #eab069;
+}
+
+p {
+    text-indent: 2em;
+    padding: 0em 1em 0em 1em;
+}
