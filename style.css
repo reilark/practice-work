@@ -1,11 +1,23 @@
+body {
+    display: grid;
+        
+    grid-template-areas: 
+        'header header header'
+        'nav nav nav'
+        'aboutme aboutme pageinfo'
+        'progress progress progress';
+    grid-gap: 1em;
+}
+
 header {
-    margin: 2em 0 0 0;
+    grid-area: header;
     text-align: center;
     font-style: italic;
     letter-spacing: .5em;
 }
 
 nav {
+    grid-area: nav;
     text-align: center;
 }
 
@@ -24,30 +36,33 @@ section {
 }
 
 #aboutme {
-    float: left;
+    grid-area: aboutme;
+    /*float: left;
     width: 25em;
     height: 26em;
-    margin: 1em;
+    margin: .5em;*/
     border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
 }
 
 #pageinfo {
-    float: right;
+    grid-area: pageinfo;
+    /*float: right;
     width: 25em;
     height: 26em;
-    margin:1em;
+    margin:.5em;*/
     border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
 }
 
 #progress {
-    float: left;
+    grid-area: progress; 
+    /*float: left;
     width: 25em;
     height: 26em;
-    margin: 1em;
+    margin: .5em;*/
     border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
