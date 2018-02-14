@@ -5,7 +5,8 @@ body {
         'header header header'
         'nav nav nav'
         'aboutme aboutme pageinfo'
-        'progress progress progress';
+        'progress progress progress'
+        'footer footer footer';
     grid-gap: 1em;
 }
 
@@ -66,6 +67,11 @@ section {
     border-radius: 1em 1em 1em 1em;
     color: #be2e71;
     background-color: #d3a165;
+}
+
+#footer {
+    grid-area: footer;
+    border-radius: 1em 1em 1em 1em;
 }
 
 p {
