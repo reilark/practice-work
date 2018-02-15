@@ -4,8 +4,8 @@ body {
     grid-template-areas: 
         'header header header'
         'nav nav nav'
-        'aboutme aboutme pageinfo'
-        'progress progress progress'
+        'aboutme aboutme progress'
+        'pageinfo pageinfo pageinfo'
         'footer footer footer';
     grid-gap: 1em;
 }
