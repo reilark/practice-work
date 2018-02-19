@@ -58,6 +58,10 @@ section {
     text-decoration: underline;
 }
 
+article {
+    padding: 0 0 1em 0;
+}
+
 #aboutme {
     grid-area: aboutme;
     /*float: left;
